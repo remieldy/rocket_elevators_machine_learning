@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body class="smoothscroll enable-animation">
+		<section>
+			<div class="container">
+
+				<!-- CHECKOUT -->
+				<%= form_with(model: @intervention, local: true) do |form| %>
+
+					<div class="col-lg-7 col-sm-7">
+						<div class="heading-title">
+							<h1>Intervention</h1>
+						</div>
+
+						<fieldset class="mt-60">
+							<div class="row">
+								<div class="col-md-6">
+									<label for="contact_department"> Which Building Type? *</label>
+									<select id="building_type" class="form-control pointer" name="department">
+										<option id="Non" value="None">--- Select ---</option>
+										<option id="Rsl" value="Residential">Residential</option><!-- //11 addR -->
+										<option id="Cml" value="Commercial">Commercial</option><!-- //10 -->
+										<option id="Crp" value="Corporate">Corporate</option><!-- //9 -->
+										<option id="Hyb" value="Hybrid">Hybrid</option><!-- //7 string-->
+									</select><br>
+									
+								</div>
+
+							</div>
+
+						</form>
+						
+					</div>
+					
+				<% end %>
+			</div>
+		</section>
+	</div>
+
+</body>
+
+</html>

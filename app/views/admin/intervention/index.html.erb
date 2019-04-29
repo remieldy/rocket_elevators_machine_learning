@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<body class="smoothscroll enable-animation">
+	
+		<section>
+
+			<div class="container">
+
+					<div class="col-lg-7 col-sm-7">
+
+						<div class="heading-title">
+							<h1>Intervention</h1>
+						</div>
+
+						<fieldset class="mt-60">
+
+							<div class="row">
+							
+								<div class="col-md-6">
+				          			<p>
+                      					<div class="row  int-position">
+                        					<%= form_with(model: @intervention, url:"intervention/create", local: true) do |f| %>
+
+												<% flash.each do |key, value| %>
+													<h5><div class="alert alert-<%= key %>"><%= value %></div></h5>
+												<% end %>
+
+												<div class="col-md-8">
+													<p>Please select a customer</p>
+													<%= f.select(:customer_id, Customer.all.collect {|t| [t.full_name, t.id]},  {prompt: "Select"}, {class: 'form-control'}) %>
+													<br>
+												</div>
+
+												<div id="building" class="col-md-8">
+													<p>Customer building ID</p>
+													<%= f.select(:building_id, Building.all.collect {|t| [t.id, t.customer_id]}, {prompt: "Select"}, {class: 'form-control'}) %>
+													<br>
+												</div>
+
+												<div id="battery" class="col-md-8">
+													<p>Customer battery ID</p>
+													<%= f.select(:battery_id, Battery.all.collect {|t| [t.id, t.building_id]}, {prompt: "Select"}, {class: 'form-control'}) %>
+													<br>
+												</div>
+
+												<div id="column" class="col-md-8">
+													<p>Customer column ID</p>
+													<%= f.select(:column_id, Column.all.collect {|t| [t.id, t.battery_id]}, {prompt: "Select"}, {class: 'form-control'}) %>
+													<br>
+												</div>
+
+												<div id="elevator" class="col-md-8">
+													<p>Customer Elevator ID</p>
+													<%= f.select(:elevator_id, Elevator.all.collect {|t| [t.id, t.column_id, t.serial_number]}, {prompt: "Select"}, {class: 'form-control'}) %>
+													<br>
+												</div>
+
+												<div id="administrators" class="col-md-12">
+													<p>Employee that would be in charge.</p>
+													<%= f.select(:administrators_id, Administrator.all.collect {|t| [t.first_name, t.id]}, {prompt: "None"}, {class: 'form-control'}) %>
+													<br>
+												</div>
+
+												<div id="description" class="col-md-12">
+													<p>Intervention description.</p>
+													<%= f.text_area :description, :cols => 60, :rows => 5 %>
+												</div>
+
+
+												<div id="send" class="col-md-12">
+													<p>Send intervention.</p>
+													<%= f.submit :Submit, class: 'btn btn-primary' %>
+												</div>
+
+                    						<% end %>
+											
+                    					</div>
+                                     
+                  					</p>
+                       
+								</div>
+
+							</div>
+
+						</fieldset>
+						
+					</div>
+
+				</div>
+
+			</section>
+
+		</div>
+
+	</body>
+
+</html>
+
+<script>
+$("#building").hide();
+$("#battery").hide();
+$("#column").hide();
+$("#elevator").hide();
+
+ // second dropdown is disable while first dropdown is empty
+
+$("#customer_id").change(function(){
+
+   var customer = $(this).val();
+
+  	if(customer == ''){
+  		$("#building").hide();
+  	}else{
+  		 $("#building").show();
+  	}
+
+    console.log('customer', customer);
+
+  	$.ajax({
+	    url: "intervention/getbuilding",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {customer: customer},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+
+	    success: function (response) {
+	      	console.log(response);
+	      
+			  $("#building_id").empty();
+			  $("#building_id").append('<option>Select</option>');
+			  $("#battery_id").empty();
+			  $("#battery_id").append('<option>Select</option>');
+			  $("#column_id").empty();
+			  $("#column_id").append('<option>None</option>');
+			  $("#elevator_id").empty();
+			  $("#elevator_id").append('<option>None</option>');
+			  $("#building_id").empty();
+			  
+	      	$("#building_id").append('<option>Select</option>');
+	      	for(var i = 0; i < response.length; i++){
+	      		$("#building_id").append('<option value="' + response[i]["id"] + '">' +response[i]["id"] + '</option>');
+	      	}
+	    }
+  	});
+
+});
+
+
+$("#building_id").change(function(){
+
+   var building = $(this).val();
+
+  	if(building == ''){
+  		$("#battery").hide();
+  	}else{
+  		 $("#battery").show();
+  	}
+
+    console.log('building', building);
+
+  	$.ajax({
+	    url: "intervention/getbattery",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {building: building},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+
+	    success: function (response) {
+	      	console.log(response);
+	      
+	      	$("#battery_id").empty();
+ 
+	      	$("#battery_id").append('<option>Select</option>');
+	      	for(var i = 0; i < response.length; i++){
+	      		$("#battery_id").append('<option value="' + response[i]["id"] + '">' +response[i]["id"]  + '</option>');
+	      	}
+	    }
+  	});
+
+});
+
+$("#battery_id").change(function(){
+
+   var battery = $(this).val();
+
+  	if(battery == ''){
+  		$("#column").hide();
+  	}else{
+  		 $("#column").show();
+  	}
+
+    console.log('battery', battery);
+
+  	$.ajax({
+	    url: "intervention/getcolumn",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {battery: battery},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+
+	    success: function (response) {
+	      	console.log(response);
+	      
+	      	$("#column_id").empty();
+ 
+	      	$("#column_id").append('<option>None</option>');
+
+	      	for(var i = 0; i < response.length; i++){
+	      		$("#column_id").append('<option value="' + response[i]["id"] + '">' +response[i]["id"] + '</option>');
+	      	}
+	    }
+  	});
+
+});
+
+$("#column_id").change(function(){
+
+   var column = $(this).val();
+
+  	if(column == ''){
+  		$("#elevator").hide();
+  	}else{
+  		 $("#elevator").show();
+  	}
+
+    console.log('column', column);
+
+  	$.ajax({
+	    url: "intervention/getelevator",
+	    method: "GET",  
+	    dataType: "json",
+	    data: {column: column},
+	    error: function (xhr, status, error) {
+	      	console.error('AJAX Error: ' + status + error);
+	    },
+
+	    success: function (response) {
+	      	console.log(response);
+	      
+	      	$("#elevator_id").empty();
+ 
+	      	$("#elevator_id").append('<option>None</option>');
+	      	for(var i = 0; i < response.length; i++){
+	      		$("#elevator_id").append('<option value="' + response[i]["id"] + '">' + response[i]["id"]  + '  : ' + response[i]["serial_number"] + '</option>');
+	      	}
+	    }
+  	});
+
+});
+
+
+$("#elevator").change(function(){
+
+	if(elevator == ''){
+  		$("#administrators").hide();
+  	}else{
+  		 $("#administrators").show();
+  	}
+
+});
+
+
+</script>
+
+
