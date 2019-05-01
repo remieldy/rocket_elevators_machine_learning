@@ -53,10 +53,11 @@ $("#output").hide();
 $(document).ready(function(){
   $('form input').change(function () {
     $('form p').text(this.files.length + " file(s) selected");
+     const wav = this.files  
   });
 }); 
 
-function txt(){
+function txt(){0
     
     $("#output").show();
     console.log("hello");
