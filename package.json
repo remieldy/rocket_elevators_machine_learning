@@ -1,7 +1,29 @@
 {
-  "name": "RocketElevators",
-  "private": true,
+  "name": "RocketML",
+  "version": "1.0.0",
+  "description": "![](http://rocketelevator.ca/assets/R2-3c6296bf2343b849b947f8ccfce0de61dd34ba7f9e2a23a53d0a743bc4604e3c.png)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelasselin/rocket_elevators_machine_learning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelasselin/rocket_elevators_machine_learning/issues"
+  },
+  "homepage": "https://github.com/samuelasselin/rocket_elevators_machine_learning#readme",
+  "devDependencies": {
+    "webpack-cli": "^3.3.1"
+  },
   "dependencies": {
-    "chart.js": "^2.8.0"
+    "webpack-cli": "^3.3.1"
   }
 }
