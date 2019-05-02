@@ -1,0 +1,74 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 3900000,
+          "Duration": 18700000,
+          "NBest": [
+            {
+              "Confidence": 0.92267,
+              "Lexical": "i'm back at it again boy",
+              "ITN": "I'm back at it again boy",
+              "MaskedITN": "I'm back at it again boy",
+              "Display": "I'm back at it again boy.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 35000000,
+          "Duration": 9100000,
+          "NBest": [
+            {
+              "Confidence": 0.852982,
+              "Lexical": "back up what",
+              "ITN": "back up what",
+              "MaskedITN": "back up what",
+              "Display": "Back up what?",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 52000000,
+          "Duration": 274500000,
+          "NBest": [
+            {
+              "Confidence": 0.798521,
+              "Lexical": "at this elevator oh OK that's great i guess have you seen those two guys that are standing next to us you have nice blue eyes let's get our tickets kids is literally past speakers compara procas quicksort patterns sequence sequence are they talking to me already talking to me it does",
+              "ITN": "at this elevator oh OK that's great I guess have you seen those 2 guys that are standing next to us you have nice blue eyes let's get our tickets kids is literally past speakers compara procas quicksort patterns sequence sequence are they talking to me already talking to me it does",
+              "MaskedITN": "at this elevator oh OK that's great I guess have you seen those 2 guys that are standing next to us you have nice blue eyes let's get our tickets kids is literally past speakers compara procas quicksort patterns sequence sequence are they talking to me already talking to me it does",
+              "Display": "At this elevator, oh OK that's great. I guess have you seen those 2 guys that are standing next to us. You have nice blue eyes? Let's get our tickets kids is literally past speakers. Compara procas quicksort patterns sequence sequence are they talking to me already talking to me, it does.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 332000000,
+          "Duration": 15900000,
+          "NBest": [
+            {
+              "Confidence": 0.887748,
+              "Lexical": "i think chewbacca talking to you",
+              "ITN": "I think Chewbacca talking to you",
+              "MaskedITN": "I think Chewbacca talking to you",
+              "Display": "I think Chewbacca talking to you.",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

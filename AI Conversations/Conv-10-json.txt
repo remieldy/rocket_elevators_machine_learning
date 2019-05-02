@@ -1,0 +1,74 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 6500000,
+          "Duration": 53200000,
+          "NBest": [
+            {
+              "Confidence": 0.691507,
+              "Lexical": "show messages at boa president of the evil was it in so that we did",
+              "ITN": "show messages at boa president of the evil was it in so that we did",
+              "MaskedITN": "show messages at boa president of the evil was it in so that we did",
+              "Display": "Show messages at Boa President of the evil was it in so that we did.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 67400000,
+          "Duration": 149400000,
+          "NBest": [
+            {
+              "Confidence": 0.700834,
+              "Lexical": "camila services and if that large roma lips ID of sellers amazon def make elbel parallel would just miss you santosh grammar duato cover merciless are like you're asleep lobola hoosier cover those guys look pretty spiritual to me",
+              "ITN": "Camila services and if that large Roma lips ID of sellers Amazon def make elbel parallel would just miss you santosh grammar duato cover merciless are like you're asleep lobola Hoosier cover those guys look pretty spiritual to me",
+              "MaskedITN": "Camila services and if that large Roma lips ID of sellers Amazon def make elbel parallel would just miss you santosh grammar duato cover merciless are like you're asleep lobola Hoosier cover those guys look pretty spiritual to me",
+              "Display": "Camila services and if that large Roma lips ID of sellers, Amazon Def make elbel parallel would just miss you. Santosh grammar duato cover merciless are like you're asleep lobola Hoosier cover those guys look pretty spiritual to me.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 223400000,
+          "Duration": 24800000,
+          "NBest": [
+            {
+              "Confidence": 0.961881,
+              "Lexical": "yeah i don't know what's going on with that",
+              "ITN": "yeah I don't know what's going on with that",
+              "MaskedITN": "yeah I don't know what's going on with that",
+              "Display": "Yeah, I don't know what's going on with that.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 257600000,
+          "Duration": 129200000,
+          "NBest": [
+            {
+              "Confidence": 0.94241,
+              "Lexical": "they seem normal at first but after they started speaking about some flowers and some colors and i i really lost where they were talking about yeah me too",
+              "ITN": "they seem normal at first but after they started speaking about some flowers and some colors and II really lost where they were talking about yeah me too",
+              "MaskedITN": "they seem normal at first but after they started speaking about some flowers and some colors and II really lost where they were talking about yeah me too",
+              "Display": "They seem normal at first, but after they started speaking about some flowers and some colors and II really lost where they were talking about. Yeah, me too.",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

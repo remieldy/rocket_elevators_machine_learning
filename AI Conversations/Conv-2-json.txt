@@ -1,0 +1,90 @@
+﻿{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 1800000,
+          "Duration": 54400000,
+          "NBest": [
+            {
+              "Confidence": 0.865355,
+              "Lexical": "bonjour monsieur quel état je trouve neuvième s'il vous plaît parfait moi douzième s'il te plaît je voudrais aller au travail",
+              "ITN": "Bonjour monsieur quel état je trouve neuvième s' il vous plaît parfait moi 12 e s' il te plaît je voudrais aller au travail",
+              "MaskedITN": "Bonjour monsieur quel état je trouve neuvième s' il vous plaît parfait moi 12 e s' il te plaît je voudrais aller au travail",
+              "Display": "Bonjour monsieur quel état je trouve neuvième s' il vous plaît parfait moi 12 e s' il te plaît je voudrais aller au travail.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 63200000,
+          "Duration": 36800000,
+          "NBest": [
+            {
+              "Confidence": 0.941123,
+              "Lexical": "moi j'aimerais aller au vingt deuxième étage s'il vous plaît excellent",
+              "ITN": "moi j'aimerais aller au 22 e étage s' il vous plaît excellent",
+              "MaskedITN": "moi j'aimerais aller au 22 e étage s' il vous plaît excellent",
+              "Display": "Moi j'aimerais aller au 22 e étage s' il vous plaît excellent.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 107900000,
+          "Duration": 214000000,
+          "NBest": [
+            {
+              "Confidence": 0.88402,
+              "Lexical": "vous avez une belle voiture monsieur jacky lequel modèle c'est une ferrari rouge il ne quatre-vingt-dix-sept une ferrari ouais sont très rare cette chanson qui a beaucoup d'argent non je voulais voler à ma grand-mère votre grand-mère oui il a eu des problèmes de sérénité mais pourquoi le volume ouais parce que c'est tombé sur le portefeuille puisse aller dans ma poche",
+              "ITN": "vous avez une belle voiture monsieur Jacky lequel modèle c'est une Ferrari rouge il ne 97 une Ferrari ouais sont très rare cette chanson qui a beaucoup d'argent non je voulais voler à ma grand-mère votre grand-mère oui il a eu des problèmes de sérénité mais pourquoi le volume ouais parce que c'est tombé sur le portefeuille puisse aller dans ma poche",
+              "MaskedITN": "vous avez une belle voiture monsieur Jacky lequel modèle c'est une Ferrari rouge il ne 97 une Ferrari ouais sont très rare cette chanson qui a beaucoup d'argent non je voulais voler à ma grand-mère votre grand-mère oui il a eu des problèmes de sérénité mais pourquoi le volume ouais parce que c'est tombé sur le portefeuille puisse aller dans ma poche",
+              "Display": "Vous avez une belle voiture monsieur Jacky lequel modèle c'est une Ferrari rouge il ne 97 une Ferrari ouais sont très rare cette chanson qui a beaucoup d'argent non je voulais voler à ma grand-mère votre grand-mère oui il a eu des problèmes de sérénité mais pourquoi le volume ouais parce que c'est tombé sur le portefeuille puisse aller dans ma poche ?",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 328700000,
+          "Duration": 12300000,
+          "NBest": [
+            {
+              "Confidence": 0.908355,
+              "Lexical": "c'est une voiture qu'on parle",
+              "ITN": "c'est une voiture qu'on parle",
+              "MaskedITN": "c'est une voiture qu'on parle",
+              "Display": "C'est une voiture qu'on parle.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 348700000,
+          "Duration": 23300000,
+          "NBest": [
+            {
+              "Confidence": 0.888106,
+              "Lexical": "non c'est l'argent qui a payé la voiture qui a été volé",
+              "ITN": "non c'est l'argent qui a payé la voiture qui a été volé",
+              "MaskedITN": "non c'est l'argent qui a payé la voiture qui a été volé",
+              "Display": "Non c'est l'argent qui a payé la voiture qui a été volé ?",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

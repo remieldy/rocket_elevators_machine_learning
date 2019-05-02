@@ -1,0 +1,42 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 400000,
+          "Duration": 276700000,
+          "NBest": [
+            {
+              "Confidence": 0.848678,
+              "Lexical": "hey what's up guys you again i'm fine i'm fine i went to the zoo yesterday man i never thought i love panda so much prefer black panther black panther is really good and lion are savage for life have you seen the black panther the movie you mean yeah marvel german exactly yeah he died",
+              "ITN": "Hey what's up guys you again I'm fine I'm fine I went to the zoo yesterday man I never thought I love panda so much prefer black Panther black Panther is really good and lion are Savage for life have you seen the black Panther the movie you mean yeah Marvel German exactly yeah he died",
+              "MaskedITN": "Hey what's up guys you again I'm fine I'm fine I went to the zoo yesterday man I never thought I love panda so much prefer black Panther black Panther is really good and lion are Savage for life have you seen the black Panther the movie you mean yeah Marvel German exactly yeah he died",
+              "Display": "Hey, what's up guys you again. I'm fine. I'm fine. I went to the zoo yesterday man. I never thought I love panda, so much prefer black Panther black Panther is really good and lion are Savage for life. Have you seen the black Panther the movie you mean Yeah, Marvel, German exactly yeah, he died?",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 284600000,
+          "Duration": 104400000,
+          "NBest": [
+            {
+              "Confidence": 0.799053,
+              "Lexical": "no i don't know don't get it are you spoiling avengers and game i think so man",
+              "ITN": "no I don't know don't get it are you spoiling Avengers and game I think so man",
+              "MaskedITN": "no I don't know don't get it are you spoiling Avengers and game I think so man",
+              "Display": "No, I don't know, don't get it. Are you spoiling Avengers and game I think so man.",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

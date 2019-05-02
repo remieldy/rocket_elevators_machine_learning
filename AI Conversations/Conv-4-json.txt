@@ -1,0 +1,42 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 6300000,
+          "Duration": 102300000,
+          "NBest": [
+            {
+              "Confidence": 0.903165,
+              "Lexical": "hey martin what have you eaten today i've eaten some potatoes and some mistake that's about it was it good man at that much what did you eat",
+              "ITN": "Hey Martin what have you eaten today I've eaten some potatoes and some mistake that's about it was it good man at that much what did you eat",
+              "MaskedITN": "Hey Martin what have you eaten today I've eaten some potatoes and some mistake that's about it was it good man at that much what did you eat",
+              "Display": "Hey Martin, what have you eaten today? I've eaten some potatoes and some mistake. That's about it? Was it good man? At that much. What did you eat?",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 119200000,
+          "Duration": 256700000,
+          "NBest": [
+            {
+              "Confidence": 0.915592,
+              "Lexical": "i ate some spaghetti with some margarines it was awesome i love pudding margarines on my spaghetti even though it may seem a little weird at first it is actually pretty weird and i ate a pizza with pineapple and pepperoni 's that was really good that's so bad eating pineapples on no don't be disrespectful",
+              "ITN": "I ate some spaghetti with some margarines it was awesome I love pudding margarines on my spaghetti even though it may seem a little weird at first it is actually pretty weird and I ate a pizza with pineapple and pepperoni's that was really good that's so bad eating pineapples on no don't be disrespectful",
+              "MaskedITN": "I ate some spaghetti with some margarines it was awesome I love pudding margarines on my spaghetti even though it may seem a little weird at first it is actually pretty weird and I ate a pizza with pineapple and pepperoni's that was really good that's so bad eating pineapples on no don't be disrespectful",
+              "Display": "I ate some spaghetti with some margarines. It was awesome. I love pudding margarines on my spaghetti. Even though it may seem a little weird at first, it is actually pretty weird and I ate a pizza with pineapple and pepperoni's that was really good. That's so bad eating pineapples on no don't be disrespectful.",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
