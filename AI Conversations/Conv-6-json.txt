@@ -1,0 +1,42 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 1300000,
+          "Duration": 304300000,
+          "NBest": [
+            {
+              "Confidence": 0.911308,
+              "Lexical": "hey max how are you hey i'm fine hey did you watch the soccer game last night it was awful yeah like every soccer game ever that's right soccer sucks so much i hate soccer so much that i my friend was playing soccer and after it after he played his game he wasn't my friend anymore yeah i know the feeling an when i listen",
+              "ITN": "Hey Max how are you Hey I'm fine Hey did you watch the soccer game last night it was awful yeah like every soccer game ever that's right soccer sucks so much I hate soccer so much that I my friend was playing soccer and after it after he played his game he wasn't my friend anymore yeah I know the feeling an when I listen",
+              "MaskedITN": "Hey Max how are you Hey I'm fine Hey did you watch the soccer game last night it was awful yeah like every soccer game ever that's right soccer sucks so much I hate soccer so much that I my friend was playing soccer and after it after he played his game he wasn't my friend anymore yeah I know the feeling an when I listen",
+              "Display": "Hey Max, how are you Hey I'm fine Hey? Did you watch the soccer game last night it was awful? Yeah, like every soccer game ever that's right soccer? Sucks so much. I hate soccer, so much that I my friend was playing soccer and after it after he played his game. He wasn't my friend anymore. Yeah, I know the feeling an when I listen.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 313300000,
+          "Duration": 63700000,
+          "NBest": [
+            {
+              "Confidence": 0.872938,
+              "Lexical": "my ears cry bloods wow that's heavy man i know",
+              "ITN": "my ears cry bloods wow that's heavy man I know",
+              "MaskedITN": "my ears cry bloods wow that's heavy man I know",
+              "Display": "My ears cry, Bloods wow that's heavy man I know.",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

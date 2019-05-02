@@ -1,0 +1,42 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 300000,
+          "Duration": 73300000,
+          "NBest": [
+            {
+              "Confidence": 0.651514,
+              "Lexical": "both almost the same issue of commercial evil super expensive it is anymore company or",
+              "ITN": "both almost the same issue of commercial evil super expensive it is anymore company or",
+              "MaskedITN": "both almost the same issue of commercial evil super expensive it is anymore company or",
+              "Display": "Both almost the same issue of commercial evil super expensive it is anymore company. Or.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 80300000,
+          "Duration": 283000000,
+          "NBest": [
+            {
+              "Confidence": 0.601519,
+              "Lexical": "josh and will see our bayes margie i still more sure let's danny maliki damn border school levy view sequoia limited see myth myth more bossage employees should should actually with limited knowledge on this on the",
+              "ITN": "Josh and will see our bayes Margie I still more sure let's Danny maliki damn border school levy view Sequoia limited see myth myth more bossage employees should should actually with limited knowledge on this on the",
+              "MaskedITN": "Josh and will see our bayes Margie I still more sure let's Danny maliki damn border school levy view Sequoia limited see myth myth more bossage employees should should actually with limited knowledge on this on the",
+              "Display": "Josh and will see our Bayes Margie. I still more sure let's Danny Maliki Damn Border School Levy. View Sequoia limited see myth myth more bossage employees should should actually with limited knowledge on this on the.",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

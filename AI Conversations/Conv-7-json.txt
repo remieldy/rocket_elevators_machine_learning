@@ -1,0 +1,58 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 2100000,
+          "Duration": 81100000,
+          "NBest": [
+            {
+              "Confidence": 0.864941,
+              "Lexical": "damn boy have you seen the rodeo last night i no i actually didn't go to the radio where was it to be gas man",
+              "ITN": "damn boy have you seen the rodeo last night I no I actually didn't go to the radio where was it to be gas man",
+              "MaskedITN": "damn boy have you seen the rodeo last night I no I actually didn't go to the radio where was it to be gas man",
+              "Display": "Damn boy have you seen the rodeo last night. I no I actually didn't go to the radio where was it to be gas man.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 97100000,
+          "Duration": 269400000,
+          "NBest": [
+            {
+              "Confidence": 0.912098,
+              "Lexical": "have you ever been to vegas yeah i'm from vegas anna i've been to the rodeo stadio twice so they i rarely hear that weird accent from vegas are you sure you are from vegas now my mom from an my dad from texas but what are you doing here nothing absolutely nothing mail so you travel from las vegas to charlottesville",
+              "ITN": "Have you ever been to Vegas yeah I'm from Vegas Anna I've been to the rodeo stadio twice so they I rarely hear that weird accent from Vegas are you sure you are from Vegas now my mom from an my dad from Texas but what are you doing here nothing absolutely nothing mail so you travel from Las Vegas to Charlottesville",
+              "MaskedITN": "Have you ever been to Vegas yeah I'm from Vegas Anna I've been to the rodeo stadio twice so they I rarely hear that weird accent from Vegas are you sure you are from Vegas now my mom from an my dad from Texas but what are you doing here nothing absolutely nothing mail so you travel from Las Vegas to Charlottesville",
+              "Display": "Have you ever been to Vegas? Yeah. I'm from Vegas. Anna I've been to the rodeo. Stadio twice so they, I rarely hear that weird accent from Vegas. Are you sure you are from Vegas now. My mom from an my dad from Texas. But what are you doing? Here nothing absolutely nothing mail so you travel from Las Vegas to Charlottesville?",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 373100000,
+          "Duration": 30300000,
+          "NBest": [
+            {
+              "Confidence": 0.922509,
+              "Lexical": "for nothing what's your name sir",
+              "ITN": "for nothing what's your name Sir",
+              "MaskedITN": "for nothing what's your name Sir",
+              "Display": "For nothing, what's your name Sir?",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

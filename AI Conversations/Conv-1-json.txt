@@ -1,0 +1,42 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 4000000,
+          "Duration": 240500000,
+          "NBest": [
+            {
+              "Confidence": 0.892014,
+              "Lexical": "can you close the door please yes sorry where wet floor going to i'm going to floor five i'm going to floor number eight how is the weather outside is not too bad yeah it's pretty cool it's a beautiful there it is sunny outside it's cloudy cloudy that's too bad what's the weather for tomorrow i don't know probably rainy yeah i think it's raining yeah we do",
+              "ITN": "can you close the door please yes sorry where wet floor going to I'm going to floor 5 I'm going to floor number 8 how is the weather outside is not too bad yeah it's pretty cool it's a beautiful there it is sunny outside it's cloudy cloudy that's too bad what's the weather for tomorrow I don't know probably rainy yeah I think it's raining yeah we do",
+              "MaskedITN": "can you close the door please yes sorry where wet floor going to I'm going to floor 5 I'm going to floor number 8 how is the weather outside is not too bad yeah it's pretty cool it's a beautiful there it is sunny outside it's cloudy cloudy that's too bad what's the weather for tomorrow I don't know probably rainy yeah I think it's raining yeah we do",
+              "Display": "Can you close the door please? Yes, sorry where wet floor going to? I'm going to floor 5? I'm going to floor number 8? How is the weather outside is not too bad? Yeah, it's pretty cool. It's a beautiful there? It is sunny outside. It's cloudy cloudy that's too bad. What's the weather for tomorrow. I don't know probably rainy? Yeah, I think it's raining, yeah, we do.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 252000000,
+          "Duration": 82800000,
+          "NBest": [
+            {
+              "Confidence": 0.811806,
+              "Lexical": "i have nice shoes oh thanks where did you get them no it's not OK",
+              "ITN": "I have nice shoes oh thanks where did you get them no it's not OK",
+              "MaskedITN": "I have nice shoes oh thanks where did you get them no it's not OK",
+              "Display": "I have nice shoes oh thanks. Where did you get them? No, it's not OK?",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

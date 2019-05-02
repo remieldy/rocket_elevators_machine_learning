@@ -1,0 +1,58 @@
+{
+  "AudioFileResults": [
+    {
+      "AudioFileName": "Channel.0.wav",
+      "AudioFileUrl": null,
+      "SegmentResults": [
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 500000,
+          "Duration": 291300000,
+          "NBest": [
+            {
+              "Confidence": 0.833242,
+              "Lexical": "at the web level do you want to go please can i go to level yes i click on the button five right now click an how do you like your noodle oh my model is pretty good i'm another logic i think you are noodle at pretty sure like too much novel with cheese and tomato salsa",
+              "ITN": "at the web level do you want to go please can I go to level yes I click on the button 5 right now click an how do you like your noodle Oh my model is pretty good I'm another logic I think you are noodle at pretty sure like too much novel with cheese and tomato salsa",
+              "MaskedITN": "at the web level do you want to go please can I go to level yes I click on the button 5 right now click an how do you like your noodle Oh my model is pretty good I'm another logic I think you are noodle at pretty sure like too much novel with cheese and tomato salsa",
+              "Display": "At the web level do you want to go please? Can I go to level? Yes, I click on the button 5 right now click an? How do you like your noodle? Oh my model is pretty good. I'm another logic. I think you are noodle at pretty sure like too much novel with cheese and tomato salsa.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 299100000,
+          "Duration": 35400000,
+          "NBest": [
+            {
+              "Confidence": 0.929785,
+              "Lexical": "it's pretty good yes it's pretty good indeed",
+              "ITN": "it's pretty good yes it's pretty good indeed",
+              "MaskedITN": "it's pretty good yes it's pretty good indeed",
+              "Display": "It's pretty good, yes, it's pretty good indeed.",
+              "Words": null
+            }
+          ]
+        },
+        {
+          "RecognitionStatus": "Success",
+          "ChannelNumber": null,
+          "Offset": 339600000,
+          "Duration": 28800000,
+          "NBest": [
+            {
+              "Confidence": 0.889929,
+              "Lexical": "me i prefer pizza",
+              "ITN": "me I prefer pizza",
+              "MaskedITN": "me I prefer pizza",
+              "Display": "Me, I prefer pizza.",
+              "Words": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
