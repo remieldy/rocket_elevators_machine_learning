@@ -1,4 +1,4 @@
-{
+﻿{
   "AudioFileResults": [
     {
       "AudioFileName": "Channel.0.wav",
@@ -7,15 +7,15 @@
         {
           "RecognitionStatus": "Success",
           "ChannelNumber": null,
-          "Offset": 6500000,
-          "Duration": 53200000,
+          "Offset": 5800000,
+          "Duration": 55300000,
           "NBest": [
             {
-              "Confidence": 0.691507,
-              "Lexical": "show messages at boa president of the evil was it in so that we did",
-              "ITN": "show messages at boa president of the evil was it in so that we did",
-              "MaskedITN": "show messages at boa president of the evil was it in so that we did",
-              "Display": "Show messages at Boa President of the evil was it in so that we did.",
+              "Confidence": 0.938737,
+              "Lexical": "cher monsieur vous êtes pour moi très important et vous êtes une source d'inspiration vous êtes",
+              "ITN": "cher monsieur vous êtes pour moi très important et vous êtes une source d'inspiration vous êtes",
+              "MaskedITN": "cher monsieur vous êtes pour moi très important et vous êtes une source d'inspiration vous êtes",
+              "Display": "Cher monsieur vous êtes pour moi très important et vous êtes une source d'inspiration vous êtes.",
               "Words": null
             }
           ]
@@ -23,15 +23,15 @@
         {
           "RecognitionStatus": "Success",
           "ChannelNumber": null,
-          "Offset": 67400000,
-          "Duration": 149400000,
+          "Offset": 66300000,
+          "Duration": 301000000,
           "NBest": [
             {
-              "Confidence": 0.700834,
-              "Lexical": "camila services and if that large roma lips ID of sellers amazon def make elbel parallel would just miss you santosh grammar duato cover merciless are like you're asleep lobola hoosier cover those guys look pretty spiritual to me",
-              "ITN": "Camila services and if that large Roma lips ID of sellers Amazon def make elbel parallel would just miss you santosh grammar duato cover merciless are like you're asleep lobola Hoosier cover those guys look pretty spiritual to me",
-              "MaskedITN": "Camila services and if that large Roma lips ID of sellers Amazon def make elbel parallel would just miss you santosh grammar duato cover merciless are like you're asleep lobola Hoosier cover those guys look pretty spiritual to me",
-              "Display": "Camila services and if that large Roma lips ID of sellers, Amazon Def make elbel parallel would just miss you. Santosh grammar duato cover merciless are like you're asleep lobola Hoosier cover those guys look pretty spiritual to me.",
+              "Confidence": 0.784988,
+              "Lexical": "comme la série sur samedi vous êtes le jaune dans le pissenlit pour ce genre dans un jaune d'oeuf mais quelle belle part elle vous dites monsieur ça me touche vraiment droit au coeur merci le soleil que le soleil plombant vos yeux cher copain laussucq freddy spirale qui me hum dessine normal de st barth after des starlettes cannes bat sunflowers and some collez-y last word word chacun boules",
+              "ITN": "comme la série sur samedi vous êtes le jaune dans le pissenlit pour ce genre dans un jaune d'oeuf mais quelle belle part elle vous dites monsieur ça me touche vraiment droit au coeur merci le soleil que le soleil plombant vos yeux cher copain laussucq Freddy spirale qui me hum dessine normal de St Barth after des starlettes Cannes bat sunflowers and some collez-y last Word Word chacun boules",
+              "MaskedITN": "comme la série sur samedi vous êtes le jaune dans le pissenlit pour ce genre dans un jaune d'oeuf mais quelle belle part elle vous dites monsieur ça me touche vraiment droit au coeur merci le soleil que le soleil plombant vos yeux cher copain laussucq Freddy spirale qui me hum dessine normal de St Barth after des starlettes Cannes bat sunflowers and some collez-y last Word Word chacun boules",
+              "Display": "Comme la série sur samedi vous êtes le jaune dans le pissenlit pour ce genre dans un jaune d'oeuf mais quelle belle part elle vous dites monsieur ça me touche vraiment droit au coeur merci le soleil que le soleil plombant vos yeux cher copain laussucq Freddy spirale qui me hum dessine normal de St Barth after des starlettes Cannes bat sunflowers and some collez-y last Word Word chacun boules ?",
               "Words": null
             }
           ]
@@ -39,31 +39,15 @@
         {
           "RecognitionStatus": "Success",
           "ChannelNumber": null,
-          "Offset": 223400000,
-          "Duration": 24800000,
+          "Offset": 374300000,
+          "Duration": 11500000,
           "NBest": [
             {
-              "Confidence": 0.961881,
-              "Lexical": "yeah i don't know what's going on with that",
-              "ITN": "yeah I don't know what's going on with that",
-              "MaskedITN": "yeah I don't know what's going on with that",
-              "Display": "Yeah, I don't know what's going on with that.",
-              "Words": null
-            }
-          ]
-        },
-        {
-          "RecognitionStatus": "Success",
-          "ChannelNumber": null,
-          "Offset": 257600000,
-          "Duration": 129200000,
-          "NBest": [
-            {
-              "Confidence": 0.94241,
-              "Lexical": "they seem normal at first but after they started speaking about some flowers and some colors and i i really lost where they were talking about yeah me too",
-              "ITN": "they seem normal at first but after they started speaking about some flowers and some colors and II really lost where they were talking about yeah me too",
-              "MaskedITN": "they seem normal at first but after they started speaking about some flowers and some colors and II really lost where they were talking about yeah me too",
-              "Display": "They seem normal at first, but after they started speaking about some flowers and some colors and II really lost where they were talking about. Yeah, me too.",
+              "Confidence": 0.666933,
+              "Lexical": "bien mytho",
+              "ITN": "bien mytho",
+              "MaskedITN": "bien mytho",
+              "Display": "Bien mytho.",
               "Words": null
             }
           ]
