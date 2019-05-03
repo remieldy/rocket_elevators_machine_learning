@@ -29,7 +29,9 @@ YOUTUBE LINK : https://www.youtube.com/watch?v=TEB3cfkO_dM&feature=youtu.be
 7) click the "Get Text" button and wait for an html page to load with your speech-to-text rendition
  
  
- 
+### OTHER FILES : 
+- /app/admin/cognitive_admin.rb
+- /app/views/admin/cognitive/index.html.erb
 
 ```
 | Users  | Emails  | Passwords |
