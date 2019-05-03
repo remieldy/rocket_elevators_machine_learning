@@ -1,41 +1,31 @@
 <%# html form for the interface %>
 
 <div>
-    <form enctype="multipart/form-data" name="upload" action="cognitive/upload" method="POST" >
+  <form enctype="multipart/form-data" name="upload" action="cognitive/upload" method="POST" >
+
     <input name="uploadfile" type="file" multiple>
     <p>Drag your files here or click in this area.</p>
     <button type="submit" id="submit_txt" >Get text</button>
-    </form>
-</div>
-
-<div id="output">
-
-  <div id="radio">
-      <div>
-          <input type="radio" id="contactChoice1"
-          name="contact" value="email">
-          <label id="textstyle1" for="contactChoice1">Profil 1</label>
-
-          <input type="radio" id="contactChoice2"
-          name="contact" value="telephone">
-          <label id="textstyle1" for="contactChoice2">Profil 2</label>
-
-          <input type="radio" id="contactChoice3"
-          name="contact" value="courrier">
-          <label id="textstyle1"for="contactChoice3">Profil 3</label>
-      </div>
-      <div>
-          <button type="submit">Verify</button>
-      </div>
-  </div>
+    
+    <div>
+          <select name="position" class="form-control pointer required" id="language">
+              <option value="nil">--- Select ---</option>
+              <option value="en-Us">English</option>
+              <option value="fr-Fr">French</option>
+          </select>
+    </div>
+  </form>
 
 </div>
+
+
+
+
 
 <%# All the javascript for Ajax call/show and hide %>
 
 <script>
 
-$("#output").hide();
 
 $(document).ready(function(){
   $('form input').change(function () {

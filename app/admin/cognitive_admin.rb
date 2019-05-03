@@ -84,6 +84,26 @@ Trestle.admin(:cognitive) do
         )
         
         if params[:uploadfile] != nil
+
+        
+          @language = params[:position]
+
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+          p "--------------------------------------------------"
+
+          p @language
     
           file_to_upload = params[:uploadfile].read
 
@@ -119,7 +139,7 @@ Trestle.admin(:cognitive) do
           request["content-length"] = '361'
           request["Connection"] = 'keep-alive'
           request["cache-control"] = 'no-cache'
-          request.body = "{\n \"recordingsUrl\": \"https://respeechtotextstorage.blob.core.windows.net/rocketconversations/#{blob_name}\",\n \"models\": [],\n \"locale\": \"en-US\",\n \"name\": \"Transcription using locale en-US\",\n \"description\": \"An optional description of the transcription.\",\n \"properties\": {\n   \"ProfanityFilterMode\": \"Masked\",\n   \"PunctuationMode\": \"DictatedAndAutomatic\"\n }\n}"
+          request.body = "{\n \"recordingsUrl\": \"https://respeechtotextstorage.blob.core.windows.net/rocketconversations/#{blob_name}\",\n \"models\": [],\n \"locale\": \"#{@language}\",\n \"name\": \"Transcription using locale en-US\",\n \"description\": \"An optional description of the transcription.\",\n \"properties\": {\n   \"ProfanityFilterMode\": \"Masked\",\n   \"PunctuationMode\": \"DictatedAndAutomatic\"\n }\n}"
           
           http.use_ssl = true
           http.verify_mode = OpenSSL::SSL::VERIFY_NONE
