@@ -1,10 +1,10 @@
 <%# html form for the interface %>
 
 <div>
-    <form >
-        <input type="file" multiple>
+    <form enctype="multipart/form-data" name="upload" action="cognitive/upload" method="POST" >
+        <input name="uploadfile" type="file" multiple>
         <p>Drag your files here or click in this area.</p>
-        <button type="button" id="getTxt" onclick="txt()">Get text</button>
+        <button type="submit" id="getTxt">Get text</button>
     </form>
 </div>
 
@@ -42,8 +42,6 @@
 
 </div>
 
-
-
 <%# All the javascript for Ajax call/show and hide %>
 
 <script>
@@ -53,16 +51,8 @@ $("#output").hide();
 $(document).ready(function(){
   $('form input').change(function () {
     $('form p').text(this.files.length + " file(s) selected");
-     const wav = this.files  
   });
 }); 
-
-function txt(){0
-    
-    $("#output").show();
-    console.log("hello");
-
-}
 
 </script>
 
