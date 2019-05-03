@@ -8,10 +8,12 @@
 - Maxime  Patry
 - Remi Lemay-Dupont
 
+YOUTUBE LINK : https://www.youtube.com/watch?v=TEB3cfkO_dM&feature=youtu.be 
 
 ###  ***Paths for audio files***
 - Audio files for profile creations : /AI Profile Tests
 - Audio files for speaker recognition et speech-to-text (10 elevator conversations) : /AI Conversations
+- ALL the tests were realized on the Postman application (as detailed in the report) with GETs and POSTs on Azure API urls
 
 ### ***Path of the report ( Results obtained)***
  - /Speech Recognition and Transcription Report.docx
@@ -21,7 +23,10 @@
 1) go to rocketelevator.ca 
 2) click the "Employee" tab at the top of the main page
 3) login with one of the user/email/password combination below
-4) 
+4) click on the "Cognitive" part of the back office
+5) drag your file in the drag and drop section or just click on it and upload your file
+6) select your preferred language (French or English) of text-to-speech rendition
+7) click the "Get Text" button and wait for an html page to load with your speech-to-text rendition
  
  
  
