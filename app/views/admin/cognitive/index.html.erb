@@ -4,7 +4,7 @@
     <form enctype="multipart/form-data" name="upload" action="cognitive/upload" method="POST" >
         <input name="uploadfile" type="file" multiple>
         <p>Drag your files here or click in this area.</p>
-        <button type="submit" id="getTxt">Get text</button>
+        <button type="submit" id="submit_txt" >Get text</button>
     </form>
 </div>
 
@@ -13,9 +13,9 @@
         <div id="textstyle1" style="height:160px;width:960px;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
         As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
         we call it a scroll box! You could also place an image into the scroll box.
-         As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
+        As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
         we call it a scroll box! You could also place an image into the scroll box.
-         As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
+        As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
         we call it a scroll box! You could also place an image into the scroll box.
     </div>
     </form>
@@ -52,6 +52,17 @@ $(document).ready(function(){
   $('form input').change(function () {
     $('form p').text(this.files.length + " file(s) selected");
   });
+
+  $('#submit_txt').click(function () {
+    
+
+
+
+
+
+
+  });
+
 }); 
 
 </script>
