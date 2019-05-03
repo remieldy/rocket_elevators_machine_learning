@@ -2,7 +2,7 @@
 
  ### Week 12 : Speech recognition and speech-to-text
  
- ### ***Our Team ***
+ ### *** Our Team ***
 - Samuel Asselin, Captain
 - Raphaël Vallée
 - Maxime  Patry
