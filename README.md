@@ -13,11 +13,11 @@
 - Audio files for profile creations : /AI Profile Tests
 - Audio files for speaker recognition et speech-to-text (10 elevator conversations) : /AI Conversations
 
-### *** Path of the report ( Results obtained)***
+### ***Path of the report ( Results obtained)***
  - /Speech Recognition and Transcription Report.docx
  **EXTRA MILE :** a "Methodology" part in the report explaining the process of creating, accessing and recognizing a specific profile ID in an audio file
 
-### *** Accessing the Back Office audio transcription on-demand ***
+### ***Accessing the Back Office audio transcription on-demand***
 1) go to rocketelevators.ca 
 2) click the "Employee" tab at the top of the main page
 3) login with one of the user/email/password combination below
