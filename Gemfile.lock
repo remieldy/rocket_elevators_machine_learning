@@ -375,6 +375,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.6)
+    waitutil (0.2.1)
     web-console (3.7.0)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -455,6 +456,7 @@ DEPENDENCIES
   twilio-ruby
   tzinfo-data
   uglifier (>= 1.3.0)
+  waitutil
   web-console (>= 3.3.0)
   whenever (~> 0.9.4)
   zendesk_api

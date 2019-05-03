@@ -2,43 +2,32 @@
 
 <div>
     <form enctype="multipart/form-data" name="upload" action="cognitive/upload" method="POST" >
-        <input name="uploadfile" type="file" multiple>
-        <p>Drag your files here or click in this area.</p>
-        <button type="submit" id="getTxt">Get text</button>
+    <input name="uploadfile" type="file" multiple>
+    <p>Drag your files here or click in this area.</p>
+    <button type="submit" id="submit_txt" >Get text</button>
     </form>
 </div>
 
 <div id="output">
-    <form id="form1" >
-        <div id="textstyle1" style="height:160px;width:960px;font:16px/26px Georgia, Garamond, Serif;overflow:auto;">
-        As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
-        we call it a scroll box! You could also place an image into the scroll box.
-         As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
-        we call it a scroll box! You could also place an image into the scroll box.
-         As you can see, once there's enough text in this box, the box will grow scroll bars... that's why
-        we call it a scroll box! You could also place an image into the scroll box.
-    </div>
-    </form>
 
+  <div id="radio">
+      <div>
+          <input type="radio" id="contactChoice1"
+          name="contact" value="email">
+          <label id="textstyle1" for="contactChoice1">Profil 1</label>
 
-    <div id="radio">
-        <div>
-            <input type="radio" id="contactChoice1"
-            name="contact" value="email">
-            <label id="textstyle1" for="contactChoice1">Profil 1</label>
+          <input type="radio" id="contactChoice2"
+          name="contact" value="telephone">
+          <label id="textstyle1" for="contactChoice2">Profil 2</label>
 
-            <input type="radio" id="contactChoice2"
-            name="contact" value="telephone">
-            <label id="textstyle1" for="contactChoice2">Profil 2</label>
-
-            <input type="radio" id="contactChoice3"
-            name="contact" value="courrier">
-            <label id="textstyle1"for="contactChoice3">Profil 3</label>
-        </div>
-        <div>
-            <button type="submit">Verify</button>
-        </div>
-    </div>
+          <input type="radio" id="contactChoice3"
+          name="contact" value="courrier">
+          <label id="textstyle1"for="contactChoice3">Profil 3</label>
+      </div>
+      <div>
+          <button type="submit">Verify</button>
+      </div>
+  </div>
 
 </div>
 
@@ -52,6 +41,10 @@ $(document).ready(function(){
   $('form input').change(function () {
     $('form p').text(this.files.length + " file(s) selected");
   });
+
+  $('#submit_txt').click(function () {
+  });
+
 }); 
 
 </script>

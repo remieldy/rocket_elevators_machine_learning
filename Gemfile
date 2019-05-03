@@ -13,6 +13,7 @@ gem 'rest-client'
 gem 'bootstrap-social-rails'
 gem "zendesk_api"
 gem 'trestle'
+gem 'waitutil'
 gem 'azure-storage-blob', '~> 1.0', '>= 1.0.1'
 gem 'trestle-auth'
 gem 'trestle-search'
