@@ -32,8 +32,13 @@ Trestle.admin(:cognitive) do
           wait(http)
         
         else 
-          @status = response.header["resultUrls"]
-          p 'OSTI DE CALISS DE TBNK'
+
+          p "--------------------------------"
+          p @status["channel_0"]
+          p "--------------------------------"
+
+          display(http)
+
         end
 
       end
@@ -57,16 +62,15 @@ Trestle.admin(:cognitive) do
         p 'requete GET'
         response = http.request(request)
 
-        p '-------------zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-----------------'
+        p '-----------------------------'
         @body = JSON.parse(response.body)
         p @body
-        p '------------zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz-----------------'
+        p '-----------------------------'
 
-        p '-------------qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq-----------------'
+        p '-----------------------------'
         @status = @body['resultsUrls']
         p @status
-        p '------------qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq-----------------'
-
+        p '-----------------------------'
 
       end
 
@@ -133,6 +137,36 @@ Trestle.admin(:cognitive) do
           
         end
                              
+      end
+
+      def display(http)
+
+        url = URI(@status["channel_0"])
+
+        p url
+
+        http = Net::HTTP.new(url.host, url.port)
+
+        request = Net::HTTP::Get.new(url)
+        http.use_ssl = true
+        http.verify_mode = OpenSSL::SSL::VERIFY_NONE
+        
+        response = http.request(request)
+        puts response.read_body
+
+        @audiotxt = JSON.parse(response.body)
+
+        p @audiotxt
+
+        @script = @audiotxt['AudioFileResults'][0]['SegmentResults']
+        @transcript = []
+
+        for x in @script do
+          @transcript << x['NBest'][0]['Lexical']
+        end
+        
+        render json: { transcript: @transcript }
+
       end
 
     end
